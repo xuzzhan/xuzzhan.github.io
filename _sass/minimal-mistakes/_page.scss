@@ -2,36 +2,41 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-#main {
-  @include clearfix;
-  margin-inline: auto;
-  padding-inline: 1em;
-  -webkit-animation: $intro-transition;
-  animation: $intro-transition;
-  max-width: 100%;
-  -webkit-animation-delay: 0.15s;
-  animation-delay: 0.15s;
-
-  @include breakpoint($x-large) {
-    max-width: $max-width;
+   #main {
+    @include clearfix;
+    margin-inline: auto;
+    padding-inline: 1em;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    max-width: 100%;
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+  
+    @include breakpoint($x-large) {
+      max-width: $max-width;
+    }
   }
-}
+  
 
-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-          flex-direction: column;
-}
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+  }
 
 .initial-content,
 .search-content {
   flex: 1 0 auto;
 }
+
+/* ==========================================================================
+   PAGE LAYOUT
+   ========================================================================== */
 
 .page {
   @include breakpoint($large) {
@@ -64,7 +69,11 @@ body {
   }
 }
 
-.page__title {
+/* ==========================================================================
+   PAGE TITLE
+   ========================================================================== */
+
+  .page__title {
   margin-top: 0;
   line-height: 1;
 
@@ -80,45 +89,82 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 }
 
+/* ==========================================================================
+   PAGE CONTENT
+   ========================================================================== */
+
 .page__content {
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+
+  h1 {
+    font-size: 1.1em;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			inset-inline-start: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h2 {
+    font-size: 0.95em;
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+  }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+  .author-info {
+    color: gray;
+    font-size: 0.7em;
+    margin-top: -10px; 
+    line-height: 1.5;  
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+
+  ul {
+    margin-top: 0.2em;
+    padding-left: 1em;
+
+    li {
+      margin-bottom: 0.2em;
+      line-height: 1.5;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Georgia', serif;
+
+    .header-link {
+      position: relative;
+      inset-inline-start: 0.5em;
+      opacity: 0;
+      font-size: 0.7em;
+      transition: opacity 0.2s ease-in-out 0.1s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.8em;
+    text-align: justify;
+    font-family: 'Tahoma', sans-serif;
   }
 
-  /* paragraph indents */
+  /* Paragraph indentation */
   p {
     margin: 0 0 $indent-var;
 
-    /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
+    @if $paragraph-indent ==true {
+      &+p {
         text-indent: $indent-var;
         margin-top: -($indent-var);
       }
@@ -128,51 +174,26 @@ body {
   a:not(.btn) {
     &:hover {
       text-decoration: underline;
-
-      img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
-      }
     }
   }
 
-  :not(pre) > code {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+  code {
+    padding: 0.1rem;
     font-size: 0.8em;
     background: $code-background-color;
     border-radius: $border-radius;
-
-    &::before,
-    &::after {
-      letter-spacing: -0.2em;
-      content: "\00a0"; /* non-breaking space*/
-    }
   }
 
-  dt {
-    margin-top: 1em;
-    font-family: $sans-serif;
-    font-weight: bold;
-  }
-
-  dd {
-    margin-inline-start: 1em;
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-  }
-
-  .small {
-    font-size: $type-size-6;
-  }
-
-  /* blockquote citations */
-  blockquote + .small {
+  blockquote+.small {
     margin-top: -1.5em;
     padding-inline-start: 1.25rem;
   }
 }
 
-.page__hero {
+/* ==========================================================================
+   PAGE HERO SECTION
+   ========================================================================== */
+  .page__hero {
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
@@ -260,8 +281,8 @@ body {
 }
 
 /*
-   Social sharing
-   ========================================================================== */
+    Social sharing
+    ========================================================================== */
 
 .page__share {
   margin-top: 2em;
@@ -289,8 +310,8 @@ body {
 }
 
 /*
-   Page meta
-   ========================================================================== */
+    Page meta
+    ========================================================================== */
 
 .page__meta {
   margin-top: 2em;
@@ -319,8 +340,8 @@ body {
 }
 
 /*
-   Page taxonomy
-   ========================================================================== */
+    Page taxonomy
+    ========================================================================== */
 
 .page__taxonomy {
   .sep {
@@ -416,8 +437,8 @@ body {
 }
 
 /*
-   Comments
-   ========================================================================== */
+    Comments
+    ========================================================================== */
 
 .page__comments {
   float: inline-start;
@@ -513,8 +534,8 @@ body {
 }
 
 /*
-   Related
-   ========================================================================== */
+    Related
+    ========================================================================== */
 
 .page__related {
   @include clearfix();
@@ -545,8 +566,8 @@ body {
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+    Wide Pages
+    ========================================================================== */
 
 .wide {
   .page, .page__related {
