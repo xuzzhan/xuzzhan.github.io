@@ -325,7 +325,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
-      read_time: true
+      # read_time: true
       comments: true
-      share: true
-      related: true
+      # share: true
+      # related: true
