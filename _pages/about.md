@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /
-excerpt: "Andy is very interested in multidisciplinary studies research that combines **city science**, **complexity science** and **computer science**."
+excerpt: "I would like to go to the pier and get some fries"
 title: About Me
 header:
   overlay_image: /assets/images/header.png
