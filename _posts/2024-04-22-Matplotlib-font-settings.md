@@ -1,7 +1,7 @@
 ---
 title: "Matplotlib.pyplot font settings"
-toc: true
-toc_sticky: true
+# toc: true
+# toc_sticky: true
 ---
 
 绘图显示中文：

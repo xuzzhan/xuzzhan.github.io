@@ -1,3 +1,9 @@
+---
+title: "Geopandas plotting settings"
+# toc: true
+# toc_sticky: true
+---
+
 对地理空间数据的可视化，自己经常使用Geopandas这个Python库，但零零散散地写，经常想设置一些具体绘图细节时每次都要从杂乱代码山中去找。今天想要修改绘图颜色条的文字标签，又是找了半天。索性趁此机会总结一下Geopandas库的绘图代码，包含自己曾经写过的、文档和论坛中看到的。参考链接置于该文最后，有需要请自行查阅。
 
 ```python
@@ -52,6 +58,8 @@ LegendElement = [mlines.Line2D([0],[0],lw,color,label) for i in range(5)]  # 为
 legend = ax.legend(handles=LegendElement, loc, title, fontsize, title_fontsize, frameon, shadow)
 legend.get_title().set_fontweight('bold')  # 标题设置字体粗度
 ```
+
+
 
 参考：
 
