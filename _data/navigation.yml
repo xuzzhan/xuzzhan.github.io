@@ -2,6 +2,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Blog"
+    url: /year-archive/
   - title: "Research"
     url: /
   - title: "Visualization"
