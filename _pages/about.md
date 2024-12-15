@@ -4,7 +4,7 @@ permalink: /
 excerpt: "I would like to go to the pier and get some fries."
 title: About Me
 header:
-  overlay_image: /assets/images/home_header.jpg
+  overlay_image: /assets/images/home_header2.jpg
   overlay_filter: linear-gradient(rgba(255, 20, 147, 0.5), rgba(0, 0, 128, 0.5))
 ---
 
