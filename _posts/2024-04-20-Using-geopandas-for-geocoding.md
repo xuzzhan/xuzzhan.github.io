@@ -1,5 +1,3 @@
-geopandas地理编码
-
 geopandas可以使用geopandas.tools.geocode进行对地址的地理编码，但使用该函数的时候后台不能挂着魔法梯，否则会报错。官方介绍是使用“photon”的地理编码服务，参考部分中给出了该函数的帮助文档地址。
 
 代码如下：
