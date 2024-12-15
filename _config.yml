@@ -344,6 +344,7 @@ defaults:
       classes: wide
       author_profile: true
       read_time: true
+      show_date: true
       comments: true
       # share: true
       related: true
