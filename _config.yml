@@ -332,13 +332,13 @@ defaults:
 
   # _posts
   - scope:
-    path: ""
-    type: posts
-  values:
-    layout: single
-    classes: wide
-    author_profile: true
-    # read_time: true
-    comments: true
-    # share: true
-    related: true
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      # read_time: true
+      comments: true
+      # share: true
+      related: true
