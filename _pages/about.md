@@ -34,9 +34,9 @@ feature_row:
 
 Hi, I am xuzzhan. I am currently an MPhil student at Tongji University, and the expected graduation date is June 2024. This website is primarily used to share my research work and study notes. 
 
-In my previous work, my research primarily focused on urban network resilience and spatio-temporal modeling, integrating methods from machine learning and statistics.
+In my previous work, my research primarily focused on urban network resilience and spatio-temporal modeling, integrating methods from machine learning and statistics. As a researcher with a background in urban planning, I am dedicated to uncovering the underlying patterns within spatio-temporal big data and applying them to inform urban development policies. 
 
-As a researcher with a background in urban planning, I am dedicated to uncovering the underlying patterns within spatio-temporal big data and applying them to inform urban development policies. If you are interested in my experience, feel free to contact me via email at [xuzzhan@gmail.com](mailto:xuzzhan@gmail.com).
+If you are interested in my experience, feel free to contact me via email at [xuzzhan@gmail.com](mailto:xuzzhan@gmail.com).
 
 ## Research interests
 
