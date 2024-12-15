@@ -1,6 +1,6 @@
 ---
 # layout: post
-# layout: single
+layout: single
 title: "Geopandas plotting settings"
 # tags:
 #  - table of contents
