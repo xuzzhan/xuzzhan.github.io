@@ -5,7 +5,7 @@ excerpt: "I would like to go to the pier and get some fries"
 title: About Me
 header:
   overlay_image: /assets/images/header.png
-  overlay_filter: linear-gradient(rgba(255, 50, 0, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(255, 20, 147, 0.5), rgba(0, 0, 128, 0.5))
 
 feature_row:
   - image_path: /assets/images/home/frc1.png
@@ -32,12 +32,17 @@ feature_row:
     btn_class: "btn--inverse"
 ---
 
-Hi, my name is Xu Zihan, and I am currently an MPhil student at Tongji University.
+Hi, I am xuzzhan. I am currently an MPhil student at Tongji University, and the expected graduation date is June 2024. This website is primarily used to share my research work and study notes. 
+
+In my previous work, my research primarily focused on urban network resilience and spatio-temporal modeling, integrating methods from machine learning and statistics.
+
+As a researcher with a background in urban planning, I am dedicated to uncovering the underlying patterns within spatio-temporal big data and applying them to inform urban development policies. If you are interested in my experience, feel free to contact me via email at [xuzzhan@gmail.com](mailto:xuzzhan@gmail.com).
 
 ## Research interests
 
-- Urban Networks Modelling and Urban Resilience
-- Urban Mobility and Accessibility
+- Urban complexity and modeling
+- Urban network resilience and optimization
+- Urban mobility and accessibility
 
 ## Education
 - *2022 – present*, *M.Phil.* in Urban and Rural Planning, Tongji University, Shanghai, China.
