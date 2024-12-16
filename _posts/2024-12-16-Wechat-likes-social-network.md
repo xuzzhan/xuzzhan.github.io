@@ -12,14 +12,9 @@ title: "Wechat moments likes as social network"
 
 # Visualization
 
-<div class="image-row">
-  <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" alt="">
-    <figcaption>Nodes are colored by betweenness centrality.</figcaption>
-  </figure>
-  <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" alt="">
-    <figcaption>Community detection visualization.</figcaption>
-  </figure>
-</div>
+<center>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="45%" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="45%" alt="">
+</center>
+
 
