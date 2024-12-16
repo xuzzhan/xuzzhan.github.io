@@ -13,8 +13,8 @@ title: "Wechat moments likes as social network"
 # Visualization
 
 <figure class="half">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg"></a>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg"></a>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="45%">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="45%">
     <figcaption>Visualization of the likes social network and community detection in WeChat Moments. The color of the node on the left indicates the betweenness centrality, and the same color on the right indicates the same community.</figcaption>
 </figure>
 
