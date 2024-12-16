@@ -11,17 +11,13 @@ title: "Wechat moments likes as social network"
 抓取点赞数据的代码来自开源仓库https://github.com/HYLZ-2019/FriendsOfFriends，主要用到的语言是Python。
 
 # Visualization
-
 <center>
-  <div style="display: inline-block; text-align: center; margin-right: 20px;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="48%" alt="">
-    <div>Nodes are colored by betweenness centrality.</div>
-  </div>
-  <div style="display: inline-block; text-align: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="48%" alt="">
-    <div>Community detection visualization.</div>
-  </div>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="46%" alt="">
+  <div>Nodes are colored by betweenness centrality.</div>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="46%" alt="">
+  <div>Community detection visualization.</div>
 </center>
+
 
 
 
