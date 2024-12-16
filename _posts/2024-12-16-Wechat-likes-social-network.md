@@ -16,7 +16,8 @@ title: "Wechat moments likes as social network"
 <!-- </center> -->
 
 <center>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="50%" alt=""><img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="50%" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="50%" alt="">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="50%" alt="">
 </center>
 
 
