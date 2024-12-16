@@ -11,10 +11,12 @@ title: "Wechat moments likes as social network"
 抓取点赞数据的代码来自开源仓库https://github.com/HYLZ-2019/FriendsOfFriends，主要用到的语言是Python。
 
 # Visualization
-<center>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="45%" alt=""><br /><figcaption>Nodes are colored by betweenness centrality.</figcaption>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="45%" alt=""><br /><figcaption>Community detection visualization.</figcaption>
-</center>
+
+<figure class="half">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg"></a>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg"></a>
+    <figcaption>Visualization of the likes social network and community detection in WeChat Moments. The color of the node on the left indicates the betweenness centrality, and the same color on the right indicates the same community.</figcaption>
+</figure>
 
 
 
