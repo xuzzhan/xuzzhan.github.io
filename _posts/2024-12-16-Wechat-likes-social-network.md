@@ -11,19 +11,12 @@ title: "Wechat moments likes as social network"
 抓取点赞数据的代码来自开源仓库https://github.com/HYLZ-2019/FriendsOfFriends，主要用到的语言是Python。
 
 # Visualization
-<!-- <center>
-<!--   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="45%" alt=""><figcaption>Nodes are colored by betweenness centrality.</figcaption><img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="45%" alt=""><figcaption>Community detection visualization.</figcaption> -->
-<!-- </center> -->
 <center>
-  <figure style="display: inline-block; text-align: center; margin-right: 20px;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" width="45%" alt="">
-    <figcaption>Nodes are colored by betweenness centrality.</figcaption>
-  </figure>
-  <figure style="display: inline-block; text-align: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" width="45%" alt="">
-    <figcaption>Community detection visualization.</figcaption>
-  </figure>
-</center>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig1.jpg" alt="">
+  <figcaption>Nodes are colored by betweenness centrality.</figcaption>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/wechat-likes/fig2.jpg" alt="">
+  <figcaption>Community detection visualization.</figcaption>
+</center> -->
 
 
 
