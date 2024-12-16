@@ -1,6 +1,6 @@
 ---
-title: "Wechat-likes-as-social-network"
-# toc: true
+title: "Wechat moments likes as social network"
+# toc: trues
 # toc_sticky: true
 ---
 
