@@ -96,9 +96,9 @@ plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
 
 例如，在这里我设置标准的中文论文字体格式，英文用Times New Roman，中文用宋体。
 
-<div align="center">
+<figure align="center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" width = 35%/>
-</div>
+</figure>
 
 参考：
 
