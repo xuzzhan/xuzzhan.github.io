@@ -29,30 +29,20 @@ plt.rcParams.update(config)
 
 不同中文字体的设置参考（来源于参考2）
 
-<div style="text-align:center;">
-  <table style="width:100%; margin:0 auto; border-collapse:collapse;">
-    <thead>
-      <tr>
-        <th>字体名称</th>
-        <th>别名</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>宋体</td><td>SimSun</td></tr>
-      <tr><td>黑体</td><td>Simhei</td></tr>
-      <tr><td>楷体</td><td>KaiTi</td></tr>
-      <tr><td>等线</td><td>DengXian</td></tr>
-      <tr><td>仿宋</td><td>FangSong</td></tr>
-      <tr><td>微软雅黑</td><td>Microsoft YaHei</td></tr>
-      <tr><td>华文宋体</td><td>STSong</td></tr>
-      <tr><td>华文中宋</td><td>STZhongsong</td></tr>
-      <tr><td>华文楷体</td><td>STKaiti</td></tr>
-      <tr><td>方正舒体</td><td>FZShuTi</td></tr>
-      <tr><td>华文新魏</td><td>STXinwei</td></tr>
-      <tr><td>方正姚体</td><td>FZYaoTi</td></tr>
-    </tbody>
-  </table>
-</div>
+|<div style="width:45%;">字体名称</div>|<div style="width:45%;">别名</div>|
+| :------: | :-------------: |
+|   宋体   |     SimSun      |
+|   黑体   |     Simhei      |
+|   楷体   |      KaiTi      |
+|   等线   |    DengXian     |
+|   仿宋   |    FangSong     |
+| 微软雅黑 | Microsoft YaHei |
+| 华文宋体 |     STSong      |
+| 华文中宋 |   STZhongsong   |
+| 华文楷体 |     STKaiti     |
+| 方正舒体 |     FZShuTi     |
+| 华文新魏 |    STXinwei     |
+| 方正姚体 |     FZYaoTi     |
 
 # 中英字体混合显示
 
@@ -66,9 +56,9 @@ plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
 
 例如，在这里我设置标准的中文论文字体格式，英文用Times New Roman，中文用宋体。
 
-<figure style="text-align:center;">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" style="width:40%;" alt="" />
-</figure>
+<div align="center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" width = 40%/>
+</div>
 
 参考：
 
