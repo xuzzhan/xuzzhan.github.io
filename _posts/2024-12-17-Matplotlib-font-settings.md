@@ -29,7 +29,7 @@ plt.rcParams.update(config)
 
 不同中文字体的设置参考（来源于参考2）
 
-<table style="border-collapse:collapse;border:1px solid #ccc;margin:0 auto;">
+<table style="border-collapse:collapse;border:1px solid #ccc;margin:0 auto;margin-bottom:20px;">
     <tr>
       <th style="width: 50em;;border:1px solid #ccc;padding:8px;text-align:center;">字体名称</th>
       <th style="width: 50em;;border:1px solid #ccc;padding:8px;text-align:center;">别名</th>
@@ -95,11 +95,12 @@ plt.rcParams.update(config)
 plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
 ```
 
-例如，在这里我设置标准的中文论文字体格式，英文用Times New Roman，中文用宋体。
+例如，在这里我设置英文用Times New Roman，中文用等线Dengxian。
 
-<figure align="center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" width = "30%">
-</figure>
+<figure style="width: 35%" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" alt="">
+  <!-- <figcaption>Itty-bitty caption.</figcaption> -->
+</figure> 
 
 参考：
 
