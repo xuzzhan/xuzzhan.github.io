@@ -83,8 +83,8 @@ plt.rcParams.update(config)
       <td style="border:1px solid #ccc;padding:8px;text-align:center;">FZYaoTi</td>
     </tr>
   </table>
-  </br>
-  
+
+
 # 中英字体混合显示
 
 另一个问题是可能需要同时显示中文和英文字体，这个时候要用到matplotlib在2022年9月更新的新功能，具体可以查阅官方文档：https://matplotlib.org/stable/users/prev_whats_new/whats_new_3.6.0.html#fonts-and-text。
@@ -98,7 +98,7 @@ plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
 例如，在这里我设置标准的中文论文字体格式，英文用Times New Roman，中文用宋体。
 
 <figure align="center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" width = 35%/>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" width = "35%">
 </figure>
 
 参考：
