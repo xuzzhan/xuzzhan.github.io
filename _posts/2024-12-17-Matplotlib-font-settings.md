@@ -83,6 +83,7 @@ plt.rcParams.update(config)
       <td style="border:1px solid #ccc;padding:8px;text-align:center;">FZYaoTi</td>
     </tr>
   </table>
+  </br>
 
 
 # 中英字体混合显示
@@ -97,9 +98,10 @@ plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
 
 例如，在这里我设置标准的中文论文字体格式，英文用Times New Roman，中文用宋体。
 
-<figure align="center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" width = "35%">
-</figure>
+<figure style="width: 35%" class="align-center">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/matplotlib-font-settings/test.jpg" alt="">
+  <!-- <figcaption>Itty-bitty caption.</figcaption> -->
+</figure> 
 
 参考：
 
