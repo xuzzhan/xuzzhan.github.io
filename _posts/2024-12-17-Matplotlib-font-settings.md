@@ -83,7 +83,6 @@ plt.rcParams.update(config)
       <td style="border:1px solid #ccc;padding:8px;text-align:center;">FZYaoTi</td>
     </tr>
   </table>
-  </br>
 
 
 # 中英字体混合显示
