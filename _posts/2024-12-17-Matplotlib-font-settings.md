@@ -1,6 +1,7 @@
 ---
 title: "Matplotlib.pyplot font settings"
 toc: true
+toc_label: "Outline"
 toc_sticky: true
 ---
 
