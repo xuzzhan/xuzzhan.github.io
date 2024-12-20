@@ -1,7 +1,7 @@
 ---
 title: "Matplotlib.pyplot font settings"
-# toc: true
-# toc_sticky: true
+toc: true
+toc_sticky: true
 ---
 
 # 中文字体设置
@@ -92,7 +92,7 @@ plt.rcParams.update(config)
 简单而言，就是设置两类字体（前英文，后中文）。
 
 ```python
-plt.rcParams["font.family"] = ["Times New Roman", "SimSun"]
+plt.rcParams["font.family"] = ["Times New Roman", "Dengxian"]
 ```
 
 例如，在这里我设置英文用Times New Roman，中文用等线Dengxian。
