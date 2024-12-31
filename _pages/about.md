@@ -1,7 +1,8 @@
 ---
 layout: single
 permalink: /
-excerpt: "I would like to go to the pier and get some fries."
+excerpt: "One apple a day, keep the doctor away.\n
+每天玩你的苹果手机，就会离博士学位越来越远。"
 title: About Me
 header:
   overlay_image: /assets/images/home_header.jpg
