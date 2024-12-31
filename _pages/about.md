@@ -1,9 +1,7 @@
 ---
 layout: single
 permalink: /
-excerpt: |
-  One apple a day, keep the doctor away.
-  每天玩你的苹果手机，就会离博士学位越来越远。
+excerpt: "One apple a day, keep the doctor away."
 title: About Me
 header:
   overlay_image: /assets/images/home_header.jpg
