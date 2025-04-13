@@ -29,6 +29,6 @@ If you are interested in my experience, feel free to contact me via email at [xu
 - Shen Y., Liu L. **Xu Z.**, Yan W., & Xu Li. (2024). **“Varying Road Network Resilience of Chinese Cities.”** Environment and Planning B: Urban Analytics and City Science, 51(5), 1168-1173.
 - **Xu Z.**, Shen Y. **“Measuring spatial network resilience of Shanghai using supply-demand flow.”** The 2024 64th ACSP Annual Conference.
 - **Xu Z.**, Feng Y., Wu X., Shen Y. **“Natural Housing Markets as Spatial Fractals.”** The 1st  AsiaCarto 2024 Conference.
-- Xu Z., Chen J., Wu X., Feng Y., Du Y., Shen Y. **"Study on Intelligent Enhancement of Multi-Dimensional Fire Resilience in Historic Heritage Spaces."** Journal of Urban Regional Planning. (Revised, in Chinese)
-- Shen Y., Xu Z., Feng Y. **"Research on the measurement and optimization of the resilience of commuting space-time structure in Shanghai during multi-level flood disasters."** Shanghai Urban Planning Review. (Revised, in Chinese)
+- **Xu Z.**, Chen J., Wu X., Feng Y., Du Y., Shen Y. **"Study on Intelligent Enhancement of Multi-Dimensional Fire Resilience in Historic Heritage Spaces."** Journal of Urban Regional Planning. (Revised, in Chinese)
+- Shen Y., **Xu Z.**, Feng Y. **"Research on the measurement and optimization of the resilience of commuting space-time structure in Shanghai during multi-level flood disasters."** Shanghai Urban Planning Review. (Revised, in Chinese)
 
