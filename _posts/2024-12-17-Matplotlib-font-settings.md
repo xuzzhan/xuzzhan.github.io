@@ -1,8 +1,8 @@
 ---
 title: "Matplotlib.pyplot font settings"
-toc: true
-toc_label: "Outline"
-toc_sticky: true
+# toc: true
+# toc_label: "Outline"
+# toc_sticky: true
 ---
 
 # 中文字体设置
@@ -28,7 +28,7 @@ config = {
 plt.rcParams.update(config)
 ```
 
-不同中文字体的设置参考（来源于参考2）
+不同中文字体的设置参考（来源于参考2）,这是Windows下的命名。如果是Mac系统，字体略有不同。
 
 <table style="border-collapse:collapse;border:1px solid #ccc;margin:0 auto;margin-bottom:20px;">
     <tr>
