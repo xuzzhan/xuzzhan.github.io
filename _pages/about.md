@@ -30,5 +30,5 @@ If you are interested in my experience, feel free to contact me via email at [xu
 - **Xu Z.** & Shen Y.* **“Measuring spatial network resilience of Shanghai using supply-demand flow.”** The 2024 64th ACSP Annual Conference.
 - **Xu Z.**, Feng Y., Wu X. & Shen Y.* **“Natural Housing Markets as Spatial Fractals.”** The 1st  AsiaCarto 2024 Conference.
 - **Xu Z.**, Chen J., Wu X., Feng Y., Du Y. & Shen Y.* **"Study on Intelligent Enhancement of Multi-Dimensional Fire Resilience in Historic Heritage Spaces."** Journal of Urban Regional Planning. (Revised, in Chinese)
-- Shen Y.*, **Xu Z.** & Feng Y. **"Research on the measurement and optimization of the resilience of commuting space-time structure in Shanghai during multi-level flood disasters."** Shanghai Urban Planning Review. (Revised, in Chinese)
+- Shen Y.*, **Xu Z.** & Feng Y. **"Research on the measurement and optimization of the resilience of commuting spatio-temporal structure in Shanghai during multi-level flood disasters."** Shanghai Urban Planning Review. (Revised, in Chinese)
 - Feng Y., Xu Y., **Xu Z.**, Liu L. & Shen Y.* **"Study on Automated Identification Methods in Urban Texture Based on Complex Network: A Case Study of the Middle Ring Area of Shanghai."** Shanghai Urban Planning Review. (Revised, in Chinese)
