@@ -116,13 +116,13 @@ analytics:
 author:
   name             : "xuzzhan"
   avatar           : "/assets/images/xuzzhan.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an MPhil student now at TJU (Shanghai)."
-  location         : "Shanghai, China"
+  bio              : "One who has been on the path of pursuing self-actualization."
+  location         : "Chongqing(CN)→Shanghai(CN)"
   # email            : xuzzhan@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "xuzzhan@gmail.com"
+      url: "xuzzhan@outlook.com"
 
     # - label: "Website"
       # icon: "fas fa-fw fa-link"
