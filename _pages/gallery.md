@@ -15,7 +15,19 @@ permalink: /gallery/
   outline: none !important;
   box-shadow: none !important;
 }
+ /* 关闭 lightbox 的渐显动画 */
+#lightbox {
+  transition: none !important;
+  animation: none !important;
+  opacity: 1 !important;
+}
+
+.lb-image {
+  transition: none !important;
+}
 </style>
+
+
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 10px;">
   {% for image in site.data.gallery %}
