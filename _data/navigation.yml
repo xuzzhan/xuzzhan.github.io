@@ -4,10 +4,11 @@ main:
     url: /
   - title: "Blog"
     url: /year-archive/
-  - title: "Research"
-    url: /
   - title: "Gallery"
     url: /gallery/
+  - title: "Research"
+    url: /
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
