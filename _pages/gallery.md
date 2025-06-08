@@ -8,6 +8,15 @@ permalink: /gallery/
 
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
 
+<style>
+.lb-close:focus,
+.lb-prev:focus,
+.lb-next:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+</style>
+
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 10px;">
   {% for image in site.data.gallery %}
   <div style="width: 300px; text-align: center;">
