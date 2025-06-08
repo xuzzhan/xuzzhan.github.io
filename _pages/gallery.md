@@ -46,11 +46,14 @@ permalink: /gallery/
   {% endfor %}
 </div>
 
+
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll('a[data-lightbox]').forEach(function (a) {
-      a.addEventListener("click", function (event) {
-        event.preventDefault(); // 阻止浏览器打开链接
+    const links = document.querySelectorAll('a[data-lightbox]');
+    links.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault(); // 关键一步，彻底阻止跳转
       });
     });
   });
