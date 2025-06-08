@@ -11,20 +11,19 @@ permalink: /gallery/
   outline: none !important;
   box-shadow: none !important;
 }
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .gallery-item {
     flex: 1 1 100% !important;
     max-width: 100% !important;
   }
 }
-
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .gallery-item {
     flex: 1 1 calc(50% - 20px) !important;
     max-width: calc(50% - 20px) !important;
   }
 }
-  <style>
+<style>
   
 <div class="gallery-item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: center;">
   <a href="/assets/images/gallery_figs/{{ image.filename }}" data-lightbox="gallery" data-title="{{ image.title }}">
