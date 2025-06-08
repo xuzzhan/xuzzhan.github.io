@@ -1,7 +1,7 @@
-- filename: ShanghaiRoadNetworkDualModelling.jpg
-  title: Dual modelling of Shanghai road network
-  description: 按照高德地图校准的上海路网对偶建模后的网络边权重，权重为时间（分钟）。
+- filename: "ShanghaiRoadNetworkDualModelling.jpg"
+  title: "Dual modelling of Shanghai road network"
+  description: "按照高德地图校准的上海路网对偶建模后的网络边权重，权重为时间（分钟）。"
 
-- filename: MetropolitanSpatialStructure.jpg
-  title: Models for spatial structures of metropolitan areas
-  description: 来源：Edward Leman, Chreod Ltd, 2001 reproduced in Metropolitan Governance: A Framework for Capacity Assessment。
+- filename: "MetropolitanSpatialStructure.jpg"
+  title: "Models for spatial structures of metropolitan areas"
+  description: "来源：Edward Leman, Chreod Ltd, 2001 reproduced in Metropolitan Governance: A Framework for Capacity Assessment。"
