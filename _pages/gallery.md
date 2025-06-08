@@ -4,6 +4,9 @@ title: "Gallery"
 permalink: /gallery/
 ---
 
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+
 <style>
 .lb-close:focus,
 .lb-prev:focus,
@@ -42,3 +45,13 @@ permalink: /gallery/
   </div>
   {% endfor %}
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('a[data-lightbox]').forEach(function (a) {
+      a.addEventListener("click", function (event) {
+        event.preventDefault(); // 阻止浏览器打开链接
+      });
+    });
+  });
+</script>
