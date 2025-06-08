@@ -24,7 +24,11 @@ permalink: /gallery/
   }
 }
 <style>
-  
+
+
+
+
+
 <div class="gallery-item" style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: center;">
   <a href="/assets/images/gallery_figs/{{ image.filename }}" data-lightbox="gallery" data-title="{{ image.title }}">
     <img src="/assets/images/gallery_figs/{{ image.filename }}" 
@@ -38,7 +42,6 @@ permalink: /gallery/
   </div>
   {% endif %}
 </div>
-
 
 
 
