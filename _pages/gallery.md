@@ -4,9 +4,6 @@ title: "Gallery"
 permalink: /gallery/
 ---
 
-<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
-
 <style>
 .lb-close:focus,
 .lb-prev:focus,
