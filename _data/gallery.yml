@@ -6,6 +6,50 @@
   title: "Dual modelling of Shanghai road network, 20250524"
   description: "按照高德地图校准的上海路网对偶建模后的网络边权重，权重为时间（分钟）。"
 
+- filename: "WestLake20250511.jpg"
+  title: "West Lake, 2025-05-11"
+  description: "去杭州九溪徒步，晚上在西湖边散步。"
+
+- filename: "Airport20240805.jpg"
+  title: "Airport, 2024-08-05"
+  description: ""
+
+- filename: "Lingang20231117.jpg"
+  title: "Lingang, 2023-11-17"
+  description: "上海临港滴水湖骑行。"
+
+- filename: "Chongming20231005.jpg"
+  title: "Chongming, 2023-10-05"
+  description: "上海崇明岛骑行。"
+
+- filename: "Airplane20230803.jpg"
+  title: "Airplane, 2023-08-03"
+  description: ""
+
+- filename: "Train20220803.jpg"
+  title: "Train, 2022-08-03"
+  description: "前往云南的动车上。"
+
+- filename: "WesternSichuan20220804.jpg"
+  title: "Western Sichuan, 2022-08-04"
+  description: ""
+
+- filename: "Dali20220809.jpg"
+  title: "Dali, 2022-08-09"
+  description: "大理洱海。"
+
+- filename: "Home20220501.PNG"
+  title: "Home, 2022-05-01"
+  description: "傍晚的家楼下。"
+
+- filename: "ChongqingAirport20220121.jpg"
+  title: "Chongqing Airport, 2022-01-21"
+  description: ""
+
+- filename: "Shenzhen20211231.jpg"
+  title: "Shenzhen, 2021-12-31"
+  description: "2021年最后一天在深圳海边。"
+
 - filename: "CollegeBuilding20210429.HEIC"
   title: "College Building in CQU, 2021-04-29"
   description: ""
