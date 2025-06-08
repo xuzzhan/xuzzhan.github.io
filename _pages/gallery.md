@@ -4,10 +4,6 @@ title: "Gallery"
 permalink: /gallery/
 ---
 
-<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet" />
-
-<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
-
 <style>
 .lb-close:focus,
 .lb-prev:focus,
@@ -15,23 +11,13 @@ permalink: /gallery/
   outline: none !important;
   box-shadow: none !important;
 }
- /* 关闭 lightbox 的渐显动画 */
-#lightbox {
-  transition: none !important;
-  animation: none !important;
-  opacity: 1 !important;
-}
-
-.lb-image {
-  transition: none !important;
-}
 </style>
 
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 10px;">
   {% for image in site.data.gallery %}
-  <div style="width: 300px; text-align: center;">
+  <div style="flex: 1 1 calc(33.333% - 20px); max-width: calc(33.333% - 20px); text-align: center;">
     <a href="/assets/images/gallery_figs/{{ image.filename }}" data-lightbox="gallery" data-title="{{ image.title }}">
       <img src="/assets/images/gallery_figs/{{ image.filename }}" 
            alt="{{ image.title }}" 
@@ -41,3 +27,6 @@ permalink: /gallery/
   </div>
   {% endfor %}
 </div>
+
+
+
