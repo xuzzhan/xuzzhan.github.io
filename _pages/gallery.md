@@ -4,6 +4,9 @@ title: "Gallery"
 permalink: /gallery/
 ---
 
+<p style="margin-top: -10px; font-size: 15px; color: #666;">
+You're welcome to use these images — just remember to credit them.
+</p>
 
 <style>
 .lb-close:focus,
