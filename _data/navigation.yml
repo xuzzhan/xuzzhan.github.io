@@ -6,6 +6,8 @@ main:
     url: /year-archive/
   - title: "Research"
     url: /
+  - title: "Gallery"
+    url: /gallery/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
