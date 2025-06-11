@@ -1,0 +1,24 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('div.highlighter-rouge').forEach(function (block) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "code-block-wrapper";
+    block.parentNode.insertBefore(wrapper, block);
+    wrapper.appendChild(block);
+
+    const button = document.createElement("button");
+    button.className = "copy-button";
+    button.innerText = "Copy";
+    wrapper.appendChild(button);
+
+    button.addEventListener("click", function () {
+      const code = block.querySelector('td.rouge-code pre')?.innerText || block.innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        button.innerText = "Copied!";
+        setTimeout(() => (button.innerText = "Copy"), 1500);
+      });
+    });
+  });
+});
+
+</script>

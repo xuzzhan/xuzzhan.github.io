@@ -8,6 +8,7 @@ geopandas可以使用geopandas.tools.geocode进行对地址的地理编码，但
 
 代码如下：
 
+{% include code-header.html %}
 ```python
 import geopandas as gpd
 df = gpd.tools.geocode(["Tongji University, Shanghai, China"])

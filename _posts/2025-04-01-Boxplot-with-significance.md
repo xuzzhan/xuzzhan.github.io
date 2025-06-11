@@ -7,11 +7,7 @@ title: "Drawing boxplot with significance"
 
 在Python中绘制带有差异显著性的箱图，代码如下。
 
-<div class="code-header">
-  <span class="red"></span>
-  <span class="yellow"></span>
-  <span class="green"></span>
-</div>
+{% include code-header.html %}
 
 ```python
 import seaborn as sns

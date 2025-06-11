@@ -171,6 +171,7 @@ footer:
 include:
   - .htaccess
   - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -335,6 +336,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
+      head: custom
       # read_time: true
       # comments: true
       # share: true
@@ -348,6 +350,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: true
+      head: custom
       read_time: true
       show_date: true
       comments: true

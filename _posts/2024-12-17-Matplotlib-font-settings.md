@@ -9,6 +9,8 @@ title: "Matplotlib.pyplot font settings"
 
 最简单的方法是，在绘图之前加入这几行代码就可以显示中文字体。
 
+{% include code-header.html %}
+
 ```python
 plt.rcParams["font.family"] = "serif"
 plt.rcParams["font.serif"] = ["Microsoft YaHei"]
@@ -17,6 +19,7 @@ plt.rcParams["axes.unicode_minus"] = False #该语句解决图像中的“-”�
 
 如果想要全局修改更多字体参数，需要用这几行代码，但可以根据需求设置。
 
+{% include code-header.html %}
 ```python
 config = {
     "font.family":'serif',
@@ -92,6 +95,7 @@ plt.rcParams.update(config)
 
 简单而言，就是设置两类字体（前英文，后中文）。
 
+{% include code-header.html %}
 ```python
 plt.rcParams["font.family"] = ["Times New Roman", "Dengxian"]
 ```
