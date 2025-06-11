@@ -7,3 +7,32 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* 苹果风格按钮 */
+.code-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #2d2d2d;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.code-header span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.code-header .red { background: #ff5f56; }
+.code-header .yellow { background: #ffbd2e; }
+.code-header .green { background: #27c93f; }
+
+/* 保证代码块样式融入 */
+.highlight > pre {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
