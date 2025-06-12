@@ -83,3 +83,7 @@ search: false
   opacity: 1;
 }
 
+// ✅ 覆盖搜索图标颜色
+.search__toggle .fa-search {
+  color: #000000 !important;  // 替换成你想要的颜色
+}
