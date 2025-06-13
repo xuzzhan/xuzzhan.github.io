@@ -79,7 +79,7 @@ algolia:
   index_name             : minimal_mistakes # YOUR_INDEX_NAME
   search_only_api_key    : 013cf16c41faa9dd0fe030c3c121043d # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
-  files_to_exclude       : - _pages
+  files_to_exclude       : - _pages/about.md
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
