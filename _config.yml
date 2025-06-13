@@ -279,7 +279,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-lunr-js-search
+  # - jekyll-lunr-js-search
 
 # mimic GitHub Pages with --safe
 whitelist:
