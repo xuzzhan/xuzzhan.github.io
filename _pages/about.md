@@ -15,7 +15,6 @@ In my previous work, my research primarily focused on urban network resilience a
 If you are interested in my experience, feel free to contact me via email at [xuzzhan@outlook.com](mailto:xuzzhan@outlook.com).
 
 ## Research interests
-
 - Urban complexity and modelling
 - Network resilience and optimization
 - Urban mobility and accessibility
@@ -26,12 +25,12 @@ If you are interested in my experience, feel free to contact me via email at [xu
 
 ## Publications
 **Journal Articles**
-- Feng, Y., **Xu, Z.**, Qi, J., & Shen, Y. (2025). *Spatial Reconfiguration of Housing Price Patterns and Submarkets in Shanghai Before and After COVID-19.* **Land, 14**(10), 2008.  
-- Shen, Y.\*, Liu, L., **Xu, Z.**, Yan, W., & Xu, L. (2024). *Varying Road Network Resilience of Chinese Cities.* **Environment and Planning B: Urban Analytics and City Science, 51**(5), 1168–1173.  
-- Shen, Y.\*, **Xu, Z.**, & Feng, Y. (2025). *Research on the Measurement and Optimization of the Resilience of Commuting Spatio-temporal Structure in Shanghai during Multi-level Flood Disasters.* *Shanghai Urban Planning Review, (02)*, 40–50. *(In Chinese)*  
-- **Xu, Z.**, Chen, J., Wu, X., Feng, Y., Du, Y., & Shen, Y.\* (2025). *Study on Intelligent Enhancement of Multi-dimensional Fire Resilience in Historic Heritage Spaces.* *Journal of Urban and Regional Planning, 17*(1), 1–18. *(In Chinese)*  
-- Feng, Y., Xu, Y., **Xu, Z.**, Liu, L., & Shen, Y.\* (2025). *Study on Automated Identification Methods in Urban Texture Based on Complex Networks: A Case Study of the Middle Ring Area of Shanghai.* *Shanghai Urban Planning Review.* *(Accepted; In Chinese)*  
-- **Xu, Z.**, Feng, Y., Song, Q., & Shen, Y.\* *Fractal-Informed Natural Submarkets: A Bottom-Up Approach to Segment Housing Markets in the Yangtze River Delta. (under review)*
+- Feng, Y., **Xu, Z.**, Qi, J., & Shen, Y. (2025). *Spatial Reconfiguration of Housing Price Patterns and Submarkets in Shanghai Before and After COVID-19.* Land, 14(10), 2008.  
+- Shen, Y.\*, Liu, L., **Xu, Z.**, Yan, W., & Xu, L. (2024). *Varying Road Network Resilience of Chinese Cities.* Environment and Planning B: Urban Analytics and City Science, 51(5), 1168–1173.  
+- Shen, Y.\*, **Xu, Z.**, & Feng, Y. (2025). *Research on the Measurement and Optimization of the Resilience of Commuting Spatio-temporal Structure in Shanghai during Multi-level Flood Disasters.* Shanghai Urban Planning Review, (02), 40–50. (In Chinese)  
+- **Xu, Z.**, Chen, J., Wu, X., Feng, Y., Du, Y., & Shen, Y.\* (2025). *Study on Intelligent Enhancement of Multi-dimensional Fire Resilience in Historic Heritage Spaces.* Journal of Urban and Regional Planning, 17(1), 1–18. (In Chinese)  
+- Feng, Y., Xu, Y., **Xu, Z.**, Liu, L., & Shen, Y.\* (2025). *Study on Automated Identification Methods in Urban Texture Based on Complex Networks: A Case Study of the Middle Ring Area of Shanghai.* Shanghai Urban Planning Review. (Accepted; In Chinese)  
+- **Xu, Z.**, Feng, Y., Song, Q., & Shen, Y.\* (under review). *Fractal-Informed Natural Submarkets: A Bottom-Up Approach to Segment Housing Markets in the Yangtze River Delta.*  
 
 **Conferences**
 - **Xu, Z.**, & Shen, Y.\* (2024). *Measuring Spatial Network Resilience of Shanghai Using Supply-Demand Flow.* *The 2024 64th ACSP Annual Conference.*  
