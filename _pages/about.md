@@ -26,7 +26,7 @@ If you are interested in my experience, feel free to contact me via email at [xu
 
 
 ## Publications
-#### Journal Articles
+### Journal Articles
 - Feng, Y., **Xu, Z.**, Qi, J., & Shen, Y. (2025). *Spatial Reconfiguration of Housing Price Patterns and Submarkets in Shanghai Before and After COVID-19.* **Land, 14**(10), 2008.  
 - Shen, Y.\*, Liu, L., **Xu, Z.**, Yan, W., & Xu, L. (2024). *Varying Road Network Resilience of Chinese Cities.* **Environment and Planning B: Urban Analytics and City Science, 51**(5), 1168–1173.  
 - Shen, Y.\*, **Xu, Z.**, & Feng, Y. (2025). *Research on the Measurement and Optimization of the Resilience of Commuting Spatio-temporal Structure in Shanghai during Multi-level Flood Disasters.* *Shanghai Urban Planning Review, (02)*, 40–50. *(In Chinese)*  
@@ -34,6 +34,6 @@ If you are interested in my experience, feel free to contact me via email at [xu
 - Feng, Y., Xu, Y., **Xu, Z.**, Liu, L., & Shen, Y.\* (2025). *Study on Automated Identification Methods in Urban Texture Based on Complex Networks: A Case Study of the Middle Ring Area of Shanghai.* *Shanghai Urban Planning Review.* *(Accepted; In Chinese)*  
 - **Xu, Z.**, Feng, Y., Song, Q., & Shen, Y.\* *Fractal-Informed Natural Submarkets: A Bottom-Up Approach to Segment Housing Markets in the Yangtze River Delta. (under review)*
 
-#### Conferences
+### Conferences
 - **Xu, Z.**, & Shen, Y.\* (2024). *Measuring Spatial Network Resilience of Shanghai Using Supply-Demand Flow.* *The 2024 64th ACSP Annual Conference.*  
 - **Xu, Z.**, Feng, Y., Wu, X., & Shen, Y.\* (2024). *Natural Housing Markets as Spatial Fractals.* *The 1st AsiaCarto 2024 Conference.*  
