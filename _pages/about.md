@@ -8,7 +8,7 @@ header:
   overlay_filter: linear-gradient(rgba(255, 20, 147, 0.5), rgba(0, 0, 128, 0.5))
 ---
 
-Hi, I am xuzzhan.  During my master's studies, I was an MPhil student at Tongji University, under the guidance of Assoc. Prof. Shen Yao (Director of [TJ-CUSP](https://www.planningscience.cn/ )). This website is primarily used to share my research work and study notes. 
+Hi, I am xuzzhan.  During my master's studies, I am an PhD student at Tongji University, under the guidance of Assoc. Prof. Shen Yao (Director of [TJ-CUSP](https://www.planningscience.cn/ )). This website is primarily used to share my research work and study notes. 
 
 In my previous work, my research primarily focused on urban network resilience and spatio-temporal modeling, integrating methods from machine learning and statistics. As a researcher with a background in urban planning, I am dedicated to uncovering the underlying patterns within spatio-temporal big data and applying them to inform urban development policies. 
 
