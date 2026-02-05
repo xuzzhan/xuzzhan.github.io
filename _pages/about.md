@@ -12,7 +12,7 @@ Hi, I am xuzzhan.  During my master's studies, I am an PhD student at Tongji Uni
 
 In my previous work, my research primarily focused on urban network resilience and spatio-temporal modeling, integrating methods from machine learning and statistics. As a researcher with a background in urban planning, I am dedicated to uncovering the underlying patterns within spatio-temporal big data and applying them to inform urban development policies. 
 
-If you are interested in my experience, feel free to contact me via email at [xuzzhan@outlook.com](mailto:xuzzhan@outlook.com).
+If you are interested in my experience, feel free to contact me via email at [xuzzhan@tongji.edu.cn](mailto:xuzzhan@tongji.edu.cn).
 
 ## Research interests
 - Urban complexity and modelling
