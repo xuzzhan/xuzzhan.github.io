@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Chongqing"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.578, 29.571]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Chengdu"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.06, 30.67]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shanghai"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.50, 31.246]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Nanjing"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.797, 32.062]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Suzhou"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.58, 31.30]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Wuxi"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.28, 31.57]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Tailand"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.992, 15.870]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Dali"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.22, 25.58]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Anshun"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.24, 26.58]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Guilin"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.29, 25.28]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Guangzhou"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.264, 23.125]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Hangzhou"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.149, 30.243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Hainan"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.77, 19.21]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Jiuzhaigou"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.918, 33.252]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Luguhu"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.65, 27.67]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Daocheng"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100.28, 30.31]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ma'anshan"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.49, 31.55]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shenzhen"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.913, 22.540]
+      }
+    }
+  ]
+}
