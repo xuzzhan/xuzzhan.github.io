@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-/* ⧉ 右上角复制按钮 */
+/* 右上角复制按钮 */
 .code-block-wrapper {
   position: relative;
 }
@@ -83,7 +83,12 @@ search: false
   opacity: 1;
 }
 
-// ✅ 覆盖搜索图标颜色
+// 覆盖搜索图标颜色
 .search__toggle .fa-search {
   color: #000000 !important;  // 替换成你想要的颜色
+}
+
+.page__meta-sep::before {
+  content: "|";
+  padding: 0 0.5em;
 }

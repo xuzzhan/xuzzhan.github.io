@@ -35,7 +35,7 @@ title: "Jekyll offline preview"
 {% include code-header.html %}
     ruby -v
 
-如果未安装，需要先安装 Ruby。再输入 gem install bundler jekyll 安装 Bundler 与 Jekyll, 若已经安装则跳过。
+如果未安装，需要先安装 Ruby。再输入 `gem install bundler jekyll` 安装 Bundler 与 Jekyll, 若已经安装则跳过。
 
 ## 三、安装项目依赖
 
@@ -43,13 +43,15 @@ title: "Jekyll offline preview"
 {% include code-header.html %}
     cd 博客目录
 
-然后运行 bundle install 根据 Gemfile 安装依赖，若已经安装则跳过。
+然后运行 `bundle install` 根据 Gemfile 安装依赖，若已经安装则跳过。
 
 ## 四、本地启动服务器
 
 运行：
 {% include code-header.html %}
-    bundle exec jekyll serve
+    bundle exec jekyll
+    # 如果需要在本地测试评论系统（如 giscus），必须以 production 环境启动
+    JEKYLL_ENV=production bundle exec jekyll serve
 
 成功后终端会显示：
 {% include code-header.html %}

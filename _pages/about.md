@@ -6,6 +6,10 @@ title: About Me
 header:
   overlay_image: /assets/images/home_header.jpg
   overlay_filter: linear-gradient(rgba(255, 20, 147, 0.5), rgba(0, 0, 128, 0.5))
+sidebar: true
+# toc: true
+# toc_label: "Outline"
+# toc_sticky: true
 ---
 
 Hi, I am xuzzhan.  I am an PhD student at Tongji University, under the guidance of Assoc. Prof. Shen Yao (Director of [TJ-CUSP](https://www.planningscience.cn/ )). This website is primarily used to share my research work and study notes. 
