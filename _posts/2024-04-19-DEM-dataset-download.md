@@ -1,5 +1,7 @@
 ---
 title: "DEM dataset download"
+categories:
+  - Data
 # toc: true
 # toc_sticky: true
 ---

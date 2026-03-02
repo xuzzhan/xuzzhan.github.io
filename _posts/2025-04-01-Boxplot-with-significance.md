@@ -1,5 +1,7 @@
 ---
-title: "Drawing boxplot with significance"
+title: "Drawing boxplots with statistical significance"
+categories:
+  - Code
 # toc: true
 # toc_label: "Outline"
 # toc_sticky: true
@@ -43,4 +45,3 @@ ax.set_xlim(-0.5, 1.5)
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/boxplot-significance/plot.jpg" alt="">
   <!-- <figcaption>Itty-bitty caption.</figcaption> -->
 </figure> 
-

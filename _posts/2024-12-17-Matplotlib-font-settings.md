@@ -1,5 +1,7 @@
 ---
-title: "Matplotlib.pyplot font settings"
+title: "Font Settings in Matplotlib.pyplot"
+categories:
+  - Code
 # toc: true
 # toc_label: "Outline"
 # toc_sticky: true

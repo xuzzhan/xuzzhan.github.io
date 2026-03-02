@@ -1,5 +1,7 @@
 ---
-title: "Wechat moments likes as social network"
+title: "Wechat moments likes as a social network"
+categories:
+  - Code
 # toc: trues
 # toc_sticky: true
 ---

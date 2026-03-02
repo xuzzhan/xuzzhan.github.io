@@ -1,5 +1,7 @@
 ---
 title: "Geopandas plotting settings"
+categories:
+  - Code
 # toc: true
 # toc_sticky: true
 ---

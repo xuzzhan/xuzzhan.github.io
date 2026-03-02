@@ -124,12 +124,12 @@ author:
   name             : "xuzzhan"
   avatar           : "/assets/images/xuzzhan.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "One who has been on the path of pursuing self-actualization."
-  location         : "Shanghai (CN)"
+  location         : "Shanghai, China"
   # email            : xuzzhan@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "xuzzhan@outlook.com"
+      url: "xuzzhan@tongji.edu.cn"
 
     # - label: "Website"
       # icon: "fas fa-fw fa-link"

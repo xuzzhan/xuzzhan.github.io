@@ -1,5 +1,7 @@
 ---
-title: "Building a user-interactive travel map"
+title: "Building an interactive travel map"
+categories:
+  - Website
 # toc: true
 # toc_label: "Outline"
 # toc_sticky: true
@@ -29,7 +31,7 @@ title: "Building a user-interactive travel map"
             cities.geojson
 
 ## 二、创建地图页面
-在 about.md 中对应位置插入：
+我希望显示在我的博客主页，因此需要在对应的文件 （about.md）中需要的位置插入：
 
 {% include code-header.html %}
 

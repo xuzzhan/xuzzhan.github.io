@@ -1,5 +1,7 @@
 ---
-title: "Using geopandas for geocoding"
+title: "Using Geopandas for geocoding"
+categories:
+  - Code
 # toc: true
 # toc_sticky: true
 ---

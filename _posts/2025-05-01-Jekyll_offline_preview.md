@@ -1,5 +1,8 @@
 ---
-title: "Jekyll offline preview"
+title: "How to preview a Jekyll site offline"
+categories:
+  - Website
+
 # toc: true
 # toc_label: "Outline"
 # toc_sticky: true

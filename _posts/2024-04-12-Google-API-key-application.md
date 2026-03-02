@@ -1,5 +1,7 @@
 ---
 title: "Googel API key application"
+categories:
+  - Data
 # toc: true
 # toc_sticky: true
 ---
