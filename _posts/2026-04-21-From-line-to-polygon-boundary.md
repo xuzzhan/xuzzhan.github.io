@@ -4,10 +4,10 @@ layout: single
 categories: Code
 ---
 
-{% include code-header.html %}
-
 对线要素进行聚合生成面单元，以获取边界。可以通过两种方法实现：凸包和凹包。
 代码如下。
+
+{% include code-header.html %}
 
 ```python
 # 【方法 A：凹包 Concave Hull】
@@ -30,7 +30,7 @@ plt.show()
 ```
 
 两种方式的结果图对比。
-<figure style="width: 35%" class="align-center">
+<figure style="width: 70%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/line-to-polygon-boundary/fig1.png" alt="">
   <!-- <figcaption>Itty-bitty caption.</figcaption> -->
 </figure> 
