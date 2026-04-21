@@ -30,7 +30,7 @@ plt.show()
 ```
 
 两种方式的结果图对比。
-<figure style="width: 70%" class="align-center">
+<figure style="width: 100%" class="align-center">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_figs/line-to-polygon-boundary/fig1.png" alt="">
   <!-- <figcaption>Itty-bitty caption.</figcaption> -->
 </figure> 
