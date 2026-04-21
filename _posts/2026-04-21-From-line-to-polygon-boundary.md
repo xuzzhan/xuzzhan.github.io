@@ -11,7 +11,7 @@ categories: Code
 
 ```python
 # 【方法 A：凹包 Concave Hull】
-# ratio: 控制凹陷程度，0 相当于凸包，1 相当于最紧凑的边界
+# ratio: 控制凹陷程度，1相当于凸包，0为最紧凑的边界
 # allow_holes=False: 强制忽略内部的中空区域，直接生成完整的多边形
 boundary_concave = merged_gdf.copy()
 boundary_concave.geometry = boundary_concave.geometry.concave_hull(ratio=0.3, allow_holes=False)
