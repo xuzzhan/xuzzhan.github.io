@@ -61,11 +61,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var myChart = echarts.init(chartDom);
     var currentYear = new Date().getFullYear().toString();
 
-    // 自动获取当前环境的文字和底色
-    var style = getComputedStyle(document.documentElement);
-    var textColor = style.getPropertyValue('--text-color').trim();
-    var emptyColor = style.getPropertyValue('--heatmap-empty').trim();
-    var BgColor = style.getPropertyValue('--bg-color').trim();
+    var textColor = '#586069';
+    var emptyColor = '#ebedf0';
+    var cardBg = '#ffffff';
 
     fetch('/api/posts.json')
         .then(response => response.json())
