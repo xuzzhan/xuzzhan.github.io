@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
             var step = roundedMax / 4;
 
             var dynamicPieces = [
-                { value: 0, color: emptyColor }, // value为0的日子，显示经典的 GitHub 浅灰色
+                { value: 0, color: '#ebedf0' }, // value为0的日子，显示经典的 GitHub 浅灰色
                 { gt: 0, lte: step, color: '#d8b4fe' },
                 { gt: step, lte: step * 2, color: '#a855f7' },
                 { gt: step * 2, lte: step * 3, color: '#7e22ce' },
