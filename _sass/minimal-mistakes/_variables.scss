@@ -175,3 +175,35 @@ $navicon-width: 1.5rem !default;
 $navicon-height: 0.25rem !default;
 $global-transition: all 0.2s ease-in-out !default;
 $intro-transition: intro 0.3s both !default;
+
+
+
+/* ==========================================================================
+   Dark Mode Implementation
+   ========================================================================== */
+
+/* 定义全局颜色变量（默认浅色） */
+:root {
+  --bg-color: #{$background-color}; // 引用你上方的 #fff
+  --text-color: #{$text-color};     // 引用你上方的 $dark-gray
+  --border-color: #{$border-color}; // 引用你上方的 $lighter-gray
+  --heatmap-empty: #ebedf0;
+}
+
+/* 定义深色变量 */
+html[data-theme='dark'] {
+  --bg-color: #{$background-color}; // 引用你上方的 #fff
+  --text-color: #{$text-color};     // 引用你上方的 $dark-gray
+  --border-color: #{$border-color}; // 引用你上方的 $lighter-gray
+  --heatmap-empty: #ebedf0;
+
+  body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  .page__inner-wrap, .archive, .sidebar {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+  }
+  a { color: #539bf5 !important; }
+}
