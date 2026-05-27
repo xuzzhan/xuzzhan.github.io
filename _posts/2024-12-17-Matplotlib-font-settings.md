@@ -7,6 +7,88 @@ categories:
 # toc_sticky: true
 ---
 
+# 获取可正确显示的字体
+
+有些系统字体可能无法在 `Matplotlib` 中正确读取和识别，这种情况下可以先清除一下缓存，代码为：
+
+{% include code-header.html %}
+```python
+import matplotlib as mpl
+import os
+import shutil
+
+cache_dir = mpl.get_cachedir()
+print(cache_dir)
+
+shutil.rmtree(cache_dir)
+```
+
+然后通过以下代码获取可以正确显示的字体名称。以中文显示为例：
+
+{% include code-header.html %}
+```python
+import pandas as pd
+import matplotlib.font_manager as fm
+from matplotlib.ft2font import FT2Font
+
+def font_supports_text(font_path, text="中文测试"):
+    try:
+        font = FT2Font(font_path)
+        charmap = font.get_charmap()
+        return all(ord(ch) in charmap for ch in text)
+    except Exception:
+        return False
+
+records = []
+
+for f in fm.fontManager.ttflist:
+    if font_supports_text(f.fname, "中文测试"):
+        records.append({"name": f.name, "path": f.fname})
+
+cn_font_df = (
+    pd.DataFrame(records)
+    .drop_duplicates()
+    .sort_values("name")
+    .reset_index(drop=True)
+)
+
+print(cn_font_df['name'])
+```
+
+得到可以用的中文字体列表，我的是
+
+{% include code-header.html %}
+```python
+['Arial Unicode MS',
+ 'Arial Unicode MS',
+ 'Baoli SC',
+ 'BiauKaiHK',
+ 'Hannotate SC',
+ 'HanziPen SC',
+ 'Hei',
+ 'Heiti TC',
+ 'Heiti TC',
+ 'Hiragino Sans GB',
+ 'Kai',
+ 'Kaiti SC',
+ 'Lantinghei SC',
+ 'Libian SC',
+ 'LingWai SC',
+ 'LingWai TC',
+ 'PingFang HK',
+ 'STFangsong',
+ 'STHeiti',
+ 'STHeiti',
+ 'SimSong',
+ 'Songti SC',
+ 'Wawati SC',
+ 'Weibei SC',
+ 'Xingkai SC',
+ 'Yuanti SC',
+ 'Yuppy SC',
+ 'Yuppy TC']
+ ```
+
 # 中文字体设置
 
 最简单的方法是，在绘图之前加入这几行代码就可以显示中文字体。

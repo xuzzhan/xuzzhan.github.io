@@ -35,7 +35,9 @@ categories:
 ### 1. 检查 Ruby 是否安装
 
 终端输入：
+
 {% include code-header.html %}
+
     ruby -v
 
 如果未安装，需要先安装 Ruby。再输入 `gem install bundler jekyll` 安装 Bundler 与 Jekyll, 若已经安装则跳过。
@@ -51,23 +53,31 @@ categories:
 ## 四、本地启动服务器
 
 运行：
+
 {% include code-header.html %}
-    bundle exec jekyll
+
+    bundle exec jekyll serve
     # 如果需要在本地测试评论系统（如 giscus），必须以 production 环境启动
     JEKYLL_ENV=production bundle exec jekyll serve
 
 成功后终端会显示：
+
 {% include code-header.html %}
+
     Server address: http://127.0.0.1:4000/
 
 浏览器打开：
+
 {% include code-header.html %}
+
     http://127.0.0.1:4000/
 
 即可查看本地版本。
 
 ## 五、开启自动刷新（推荐）
+
 {% include code-header.html %}
+
     bundle exec jekyll serve --livereload
 
 修改文件后浏览器会自动刷新。
@@ -76,7 +86,6 @@ categories:
 
 安装后标准流程是：
 
-1.  ruby -v
-2.  cd 博客目录
-3.  bundle exec jekyll serve
-4.  http://127.0.0.1:4000/
+1.  `cd 博客目录` 或者 直接在博客目录下运行终端
+2.  终端输入运行 `bundle exec jekyll serve`
+3.  浏览器打开 `http://127.0.0.1:4000/`
