@@ -5,9 +5,48 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+/* ---------------------------
+   导入 Minimal Mistakes 样式
+----------------------------*/
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
+
+/* ---------------------------
+   post 页面左侧大纲目录
+----------------------------*/
+@media screen and (min-width: 1280px) {
+  .sidebar .page-toc-left {
+    margin-top: 28px;
+    max-height: calc(100vh - 360px);
+    overflow-y: auto;
+  }
+
+  .sidebar .page-toc-left .toc {
+    font-size: 0.9em;
+  }
+
+  .sidebar .page-toc-left .toc__menu {
+    font-size: 1em;
+  }
+
+  .sidebar .page-toc-left .toc__menu a {
+    padding-top: 0.45em;
+    padding-bottom: 0.45em;
+    line-height: 1.35;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .sidebar .page-toc-left {
+    display: none;
+  }
+}
+
+
+/* ---------------------------
+   代码块样式
+----------------------------*/
 
 /* 右上角复制按钮 */
 .code-block-wrapper {
@@ -15,22 +54,16 @@ search: false
 }
 
 .highlighter-rouge {
-  // background: #292c33;
   border-radius: 15px;
   overflow: hidden;
-  margin-bottom: 1em;
-  margin: 0;
+  margin: 0 0 1em 0;
 }
 
-/* 控制背景区域和圆角 */
 .highlight {
   background: #292c33;
-  // border-bottom-left-radius: 15px;
-  // border-bottom-right-radius: 15px;
   overflow: hidden;
 }
 
-/* 控制代码文字和行号的样式 */
 .highlight pre {
   margin: 0;
   padding: 0.4em 1em;
@@ -42,7 +75,6 @@ search: false
 .code-header {
   display: flex;
   align-items: center;
-  // justify-content: space-between;
   gap: 6px;
   padding: 6px 16px;
   background: #292c33;
@@ -79,16 +111,234 @@ search: false
   transition: opacity 0.2s ease;
 }
 
-.copy-button:hover {
-  opacity: 1;
-}
-
-// 覆盖搜索图标颜色
-.search__toggle .fa-search {
-  color: #000000 !important;  // 替换成你想要的颜色
-}
+.copy-button:hover { opacity: 1; }
 
 .page__meta-sep::before {
   content: "|";
   padding: 0 0.5em;
+}
+
+
+/* ---------------------------
+   主题样式（light/dark）通用
+----------------------------*/
+
+/* dark 模式基础背景和文字 */
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background: #181818 !important;
+  color: #e6e6e6 !important;
+}
+
+/* 内容区域 */
+html[data-theme="dark"] .initial-content,
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .page__inner-wrap,
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .archive,
+html[data-theme="dark"] .layout--home,
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .entries-list,
+html[data-theme="dark"] .list__item,
+html[data-theme="dark"] .archive__item,
+html[data-theme="dark"] .archive__item-body {
+  background: #181818 !important;
+  color: #e6e6e6 !important;
+}
+
+/* heatmap 卡片 */
+html[data-theme="light"] .heatmap-card {
+  background-color: #ffffff;
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 2em;
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .heatmap-card {
+  background-color: #181818;
+  border: 1px solid #4c4c4c;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 2em;
+  box-shadow: none;
+}
+
+/* 导航、标题、文字 */
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead__inner-wrap,
+html[data-theme="dark"] .masthead__menu,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .greedy-nav .visible-links,
+html[data-theme="dark"] .greedy-nav .hidden-links {
+  background: #181818 !important;
+  color: #e6e6e6 !important;
+}
+
+html[data-theme="dark"] .site-title,
+html[data-theme="dark"] .site-subtitle,
+html[data-theme="dark"] .masthead__menu-item,
+html[data-theme="dark"] .visible-links a,
+html[data-theme="dark"] .hidden-links a,
+html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3,
+html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
+html[data-theme="dark"] p, html[data-theme="dark"] li, html[data-theme="dark"] span,
+html[data-theme="dark"] time, html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .archive__item-excerpt, html[data-theme="dark"] .page__meta {
+  color: #e6e6e6 !important;
+}
+
+html[data-theme="dark"] a { color: #8ab4f8 !important; }
+
+/* gallery*/
+.gallery-title { color: #555; }
+.gallery-desc { color: #888; }
+
+html[data-theme="dark"] .gallery-title {color: #888 !important; }
+html[data-theme="dark"] .gallery-desc {  color: #555 !important; }
+
+/* ---------------------------
+   顶部主题切换按钮 & 搜索图标
+----------------------------*/
+
+/* li 保持水平对齐导航栏 */
+.masthead__menu .theme-toggle-item {
+  display: inline-flex !important;
+  align-items: center !important;
+  height: 100%;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+/* 主题切换按钮本体 */
+#theme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 28px;
+  border: none;
+  border-radius: 999px;
+  background: #e0e0e0;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 0.3s ease;
+}
+
+/* 太阳/月亮图标 */
+.theme-toggle__light,
+.theme-toggle__dark {
+  position: absolute;
+  top: 50%;
+  font-size: 0.65rem;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  transition: color 0.3s ease;
+}
+
+.theme-toggle__light { left: 24%; }
+.theme-toggle__dark { left: 76%; }
+
+/* 圆形滑块 */
+#theme-toggle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 24%;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: left 0.3s ease, background 0.3s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+html[data-theme="dark"] #theme-toggle { background: #555; }
+html[data-theme="dark"] #theme-toggle::before { left: 76%; }
+
+html[data-theme="light"] .theme-toggle__light { color: #000; }
+html[data-theme="light"] .theme-toggle__dark { color: #222; }
+html[data-theme="dark"] .theme-toggle__light { color: #aaa; }
+html[data-theme="dark"] .theme-toggle__dark { color: #000; }
+
+/* 搜索图标 dark 模式 */
+html[data-theme="dark"] .search__toggle,
+html[data-theme="dark"] .search__toggle i,
+html[data-theme="dark"] .search__toggle .fa-search {
+  color: #f82f21 !important;
+}
+
+html[data-theme="dark"] .search__toggle:hover,
+html[data-theme="dark"] .search__toggle:hover i,
+html[data-theme="dark"] .search__toggle:hover .fa-search {
+  color: #ba2015 !important;
+}
+
+
+// /* ---------------------------
+//    顶部导航栏固定
+// ----------------------------*/
+// .masthead {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 999;
+//   background: #fff;
+// }
+
+// html[data-theme="dark"] .masthead { background: #181818; }
+
+// /* 避免遮挡页面内容 */
+// body { padding-top: 85px; }
+
+
+/* ---------------------------
+   Leaflet 控件 dark 模式
+----------------------------*/
+html[data-theme="dark"] .leaflet-control-zoom a {
+  background-color: #181818 !important;
+  color: #e6e6e6 !important;
+  border-color: #333333 !important;
+}
+
+html[data-theme="dark"] .leaflet-control-zoom a:hover {
+  background-color: #252525 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .leaflet-bar { border-color: #333333 !important; }
+
+html[data-theme="dark"] .leaflet-control-attribution {
+  background: rgba(24, 24, 24, 0.85) !important;
+  color: #cfcfcf !important;
+}
+
+html[data-theme="dark"] .leaflet-control-attribution a { color: #8ab4f8 !important; }
+
+
+/* ---------------------------
+   author sidebar dark mode
+----------------------------*/
+html[data-theme="dark"] .author__urls i,
+html[data-theme="dark"] .author__urls .fa,
+html[data-theme="dark"] .author__urls .fas,
+html[data-theme="dark"] .author__urls .fab,
+html[data-theme="dark"] .author__urls a,
+html[data-theme="dark"] .author__urls li,
+html[data-theme="dark"] .author__urls span {
+  color: #e8e8e8 !important;
+}
+
+html[data-theme="dark"] .author__urls a:hover,
+html[data-theme="dark"] .author__urls a:hover i,
+html[data-theme="dark"] .author__urls a:hover .fa,
+html[data-theme="dark"] .author__urls a:hover .fas,
+html[data-theme="dark"] .author__urls a:hover .fab {
+  color: #ffffff !important;
 }
