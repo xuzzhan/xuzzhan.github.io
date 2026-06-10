@@ -280,22 +280,67 @@ html[data-theme="dark"] .search__toggle:hover .fa-search {
 }
 
 
-// /* ---------------------------
-//    顶部导航栏固定
-// ----------------------------*/
-// .masthead {
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   z-index: 999;
-//   background: #fff;
-// }
+/* ---------------------------
+   评论区的主题切换
+----------------------------*/
+html[data-theme="dark"] .gt-container,
+html[data-theme="dark"] .gt-container * {
+  color: #d0d7de !important;
+}
 
-// html[data-theme="dark"] .masthead { background: #181818; }
+html[data-theme="dark"] .gt-container .gt-header-textarea,
+html[data-theme="dark"] .gt-container .gt-header-preview,
+html[data-theme="dark"] .gt-container .gt-comment-content,
+html[data-theme="dark"] .gt-container .gt-popup,
+html[data-theme="dark"] .gt-container .gt-comment-admin .gt-comment-content {
+  background-color: #161b22 !important;
+  color: #d0d7de !important;
+  border-color: #30363d !important;
+}
 
-// /* 避免遮挡页面内容 */
-// body { padding-top: 85px; }
+html[data-theme="dark"] .gt-container .gt-header {
+  background-color: transparent !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-header-textarea {
+  box-shadow: none !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-header-textarea::placeholder {
+  color: #8b949e !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-header-controls,
+html[data-theme="dark"] .gt-container .gt-header-preview {
+  background-color: #161b22 !important;
+  border-color: #30363d !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-header-tab {
+  background-color: #161b22 !important;
+  color: #d0d7de !important;
+  border-color: #30363d !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-header-tab.gt-active {
+  background-color: #0d1117 !important;
+  color: #f0f6fc !important;
+  border-color: #30363d !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-btn-public {
+  background-color: #238636 !important;
+  border-color: #238636 !important;
+  color: #ffffff !important;
+}
+
+html[data-theme="dark"] .gt-container a {
+  color: #58a6ff !important;
+}
+
+html[data-theme="dark"] .gt-container .gt-svg svg {
+  fill: #8b949e !important;
+}
 
 
 /* ---------------------------
