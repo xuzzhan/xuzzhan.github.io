@@ -37,8 +37,8 @@ html[data-theme="dark"] {
   --site-text: #e6e6e6;
   --site-text-muted: #b8b8b8;
   --site-text-subtle: #8f8f8f;
-  --site-link: #8ab4f8;
-  --site-link-hover: #a7c7ff;
+  --site-link: #2a00bc;
+  --site-link-hover: #2a00bc;
   --site-accent-bg: rgba(138, 180, 248, 0.12);
   --site-code-bg: #292c33;
 }
@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 
 .sidebar .page-toc-left .toc .nav__title {
   margin: 0;
-  padding: 0 65rem 0.5rem 0.75rem;
+  padding: 0 0.65rem 0.5rem 0.75rem;
   background: transparent;
   color: var(--site-text-muted);
   border: none;
@@ -234,8 +234,6 @@ html[data-theme="dark"] .archive__item-body {
 html[data-theme="dark"] .site-title,
 html[data-theme="dark"] .site-subtitle,
 html[data-theme="dark"] .masthead__menu-item,
-html[data-theme="dark"] .visible-links a,
-html[data-theme="dark"] .hidden-links a,
 html[data-theme="dark"] h1,
 html[data-theme="dark"] h2,
 html[data-theme="dark"] h3,
@@ -251,13 +249,35 @@ html[data-theme="dark"] .archive__item-excerpt,
 html[data-theme="dark"] .page__meta {
   color: var(--site-text) !important;
 }
-
 html[data-theme="dark"] a {
   color: var(--site-link) !important;
 }
 
 html[data-theme="dark"] a:hover {
   color: var(--site-link-hover) !important;
+}
+
+html[data-theme="dark"] .visible-links a,
+html[data-theme="dark"] .hidden-links a {
+  color: var(--site-text) !important;
+}
+
+html[data-theme="dark"] .visible-links a:hover,
+html[data-theme="dark"] .hidden-links a:hover {
+  color: var(--site-link-hover) !important;
+}
+
+/* ---------------------------
+   Text selection color
+----------------------------*/
+html[data-theme="dark"] *::selection {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+html[data-theme="dark"] *::-moz-selection {
+  background: #fff !important;
+  color: #000 !important;
 }
 
 
