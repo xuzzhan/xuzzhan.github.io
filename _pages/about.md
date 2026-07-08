@@ -332,6 +332,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 ["Chongqing", "Tailand"],
                 ["Chongqing", "Suzhou"],
                 ["Suzhou", "Nanjing"],
+                ["Shanghai", "Nanjing"]
                 ["Nanjing", "Chongqing"],
                 ["Shanghai", "Hangzhou"],
                 ["Shanghai", "Wuxi"],
